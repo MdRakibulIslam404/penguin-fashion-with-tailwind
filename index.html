@@ -28,12 +28,13 @@
         <section class="container mx-auto px-4 sm:flex items-center justify-around">
             <div class="space-y-4">
                 <h1 class="text-2xl sm:text-5xl uppercase font-bold">
-                    <span class="text-yellow-400">Be the Penguins</span>
+                    <span class="text-yellow-400" id="changeable-title">Be the Penguins</span>
                     <br>
                     <span>of Winter</span>
                 </h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button class="uppercase bg-[#A4BC46] py-3 px-7 font-semibold text-white rounded-xl"><svg
+                <button id="click-to-cng-title"
+                    class="uppercase bg-[#A4BC46] py-3 px-7 font-semibold text-white rounded-xl"><svg
                         xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -42,7 +43,7 @@
             </div>
 
             <div class="pt-12 sm:pt-0">
-                <img class="w-5/6 sm:w-full p-x-5" src="images/model.png" alt="">
+                <img class="w-5/6 sm:w-full p-x-5" id="get-to-log" src="images/model.png" alt="">
             </div>
         </section>
     </header>
@@ -209,6 +210,9 @@
             <p>&copy; Buy form us</p>
         </footer>
     </main>
+
+    <!-- js -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
